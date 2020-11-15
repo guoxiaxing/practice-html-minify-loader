@@ -1,0 +1,33 @@
+{
+  "name": "practice-html-minify-loader",
+  "version": "1.0.0",
+  "description": "实现一个简单的html-minify-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoxiaxing/practice-html-minify-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guoxiaxing/practice-html-minify-loader/issues"
+  },
+  "homepage": "https://github.com/guoxiaxing/practice-html-minify-loader#readme",
+  "dependencies": {
+    "minimize": "^2.2.0",
+    "webpack": "^5.4.0"
+  },
+  "devDependencies": {
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "loader-utils": "^2.0.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
